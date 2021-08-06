@@ -18,21 +18,21 @@ const routes = [
     path: '/empresa',
     name: 'empresa',
     component: () => import(/* webpackChunkName: "about" */ '../pages/Empresa.vue')
-  },
-  {
-    path: '/manutencao',
-    name: 'manutencao',
-    component: () => import(/* webpackChunkName: "about" */ '../pages/Manutencao.vue')
-  },
-  {
-    path: '/vendas',
-    name: 'vendas',
-    component: () => import(/* webpackChunkName: "about" */ '../pages/Vendas.vue')
-  },
-  {
-    path: '/desenvolvimento',
-    name: 'desenvolvimento',
-    component: () => import(/* webpackChunkName: "about" */ '../pages/Desenvolvimento.vue')
+  // },
+  // {
+  //   path: '/manutencao',
+  //   name: 'manutencao',
+  //   component: () => import(/* webpackChunkName: "about" */ '../pages/Manutencao.vue')
+  // },
+  // {
+  //   path: '/vendas',
+  //   name: 'vendas',
+  //   component: () => import(/* webpackChunkName: "about" */ '../pages/Vendas.vue')
+  // },
+  // {
+  //   path: '/desenvolvimento',
+  //   name: 'desenvolvimento',
+  //   component: () => import(/* webpackChunkName: "about" */ '../pages/Desenvolvimento.vue')
   }
 ]
 
