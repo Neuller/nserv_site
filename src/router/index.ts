@@ -17,22 +17,22 @@ const routes = [
   {
     path: '/empresa',
     name: 'empresa',
-    component: () => import(/* webpackChunkName: "about" */ '../pages/Empresa.vue')
+    component: Empresa
   },
   {
     path: '/manutencao',
     name: 'manutencao',
-    component: () => import(/* webpackChunkName: "about" */ '../pages/Manutencao.vue')
+    component: Manutencao
   },
   {
     path: '/vendas',
     name: 'vendas',
-    component: () => import(/* webpackChunkName: "about" */ '../pages/Vendas.vue')
+    component: Vendas
   },
   {
     path: '/desenvolvimento',
     name: 'desenvolvimento',
-    component: () => import(/* webpackChunkName: "about" */ '../pages/Desenvolvimento.vue')
+    component: Desenvolvimento
   }
 ]
 
