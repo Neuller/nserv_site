@@ -43,16 +43,5 @@
     "vue-cli-plugin-vuetify": "^2.0.6",
     "vue-template-compiler": "^2.6.10",
     "vuetify-loader": "^1.5.0"
-  },
-  "description": "```\r npm install\r ```",
-  "main": ".eslintrc.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Neuller/site_nserv.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/Neuller/site_nserv/issues"
-  },
-  "homepage": "https://github.com/Neuller/site_nserv#readme"
+  }
 }
