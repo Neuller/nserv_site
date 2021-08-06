@@ -1,0 +1,152 @@
+.white-space-normal {
+    white-space: normal;
+}
+
+.line-height-100 {
+    line-height: 1!important
+}
+
+.line-height-125 {
+    line-height: 1.25!important
+}
+
+.line-height-150 {
+    line-height: 1.5!important
+}
+
+.line-height-175 {
+    line-height: 1.75!important
+}
+
+.line-height-200 {
+    line-height: 2!important
+}
+
+.nserv {
+    background-color: #8e1a23!important;
+}
+
+.nserv--text {
+    color: #8e1a23!important;
+}
+
+.azul {
+    background-color: #1B6181!important;
+}
+
+.azul--text {
+    color: #1B6181!important;
+}
+
+.verde {
+    background-color: #607434!important;
+}
+
+.verde--text {
+    color: #607434!important;
+}
+
+.v-card__title {
+    word-break: break-word!important;
+}
+
+.canal {
+    background: url(../img/desenvolvimento/bg-card1.jpg);
+    background-size: cover;
+}
+
+.ihgmg {
+    background: url(../img/desenvolvimento/bg-card2.jpg);
+    background-size: cover;
+}
+
+.fazenda {
+    background: url(../img/desenvolvimento/bg-card3.jpg);
+    background-size: cover;
+}
+
+.solar {
+    background: url(../img/desenvolvimento/bg-card4.jpg);
+    background-size: cover;
+}
+
+.v-application .display-2 {
+    font-size: 3rem !important;
+    font-weight: 400;
+    line-height: 3.125rem;
+    letter-spacing: normal !important;
+    font-family: "Roboto", sans-serif !important;
+}
+
+/* Extra Small */
+
+@media (max-width: 599px) {
+    .display-2-responsive {
+        font-size: 2rem !important;
+        font-weight: 400;
+        line-height: 2.5rem;
+        letter-spacing: normal !important;
+        font-family: "Roboto", sans-serif !important;
+    }
+}
+
+/* Small */
+
+@media (min-width: 600px) {
+    .display-2-responsive {
+        font-size: 2.5rem !important;
+        line-height: 3rem;
+    }
+}
+
+/* Medium */
+
+@media (min-width: 960px) {
+    .display-2-responsive {
+        font-size: 4rem !important;
+        line-height: 4.5rem;
+    }
+}
+
+/* Large */
+
+@media (min-width: 1264px) {}
+
+.imgAppsMd {
+    text-align: center;
+}
+
+.imgAppsMd div {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.imgAppsMd .v-image {
+    width: 50%;
+    display: inline-block;
+    margin-left: -150px;
+}
+
+.imgAppsMd .v-image:first-child {
+    margin-left: 0px;
+}
+
+.empresa .blockquote, .trabalhe .blockquote {
+    padding: 16px;
+}
+
+/* Extra Small */
+
+@media (max-width: 600px) {}
+
+/* Small */
+
+@media (min-width: 600px) {}
+
+/* Medium */
+
+@media (min-width: 960px) {}
+
+/* Large */
+
+@media (min-width: 1264px) {}

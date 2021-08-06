@@ -1,0 +1,1 @@
+export const URL_EMAIL_SERVICE: string = "https://www.nservinformatica.com.br/";
