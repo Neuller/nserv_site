@@ -3,7 +3,7 @@
     <v-parallax
       class="destaque blue"
       dark
-      src="..\assets\img\manutencao\bg-manutencao.png"
+      src="..\assets\img\manutencao\bg-manutencao.jpg"
     >
       <destaque>
         <b>TITULO</b>, <br class="d-none d-sm-inline" />TITULO

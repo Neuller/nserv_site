@@ -1,6 +1,6 @@
 <template>
   <div class="ambiental">
-    <v-parallax class="destaque green darken-2" dark src="..\assets\img\vendas\bg-vendas.png">
+    <v-parallax class="destaque green darken-2" dark src="..\assets\img\vendas\bg-vendas.jpg">
       <destaque>
         <b>TITULO</b>,
         <br />TITULO

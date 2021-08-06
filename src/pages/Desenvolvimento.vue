@@ -3,7 +3,7 @@
     <v-parallax
       class="destaque nserv"
       dark
-      src="..\assets\img\desenvolvimento/bg-desenvolvimento.png"
+      src="..\assets\img\desenvolvimento/bg-desenvolvimento.jpg"
     >
       <destaque>TEXTO PRINCIPAL</destaque>
     </v-parallax>
