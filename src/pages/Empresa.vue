@@ -1,6 +1,6 @@
 <template>
   <div class="empresa">
-    <v-parallax class="destaque nserv" dark src="..\assets\img\empresa\bg-empresa.jpg">
+    <v-parallax class="destaque nserv" dark src="@\assets\img\empresa\bg-empresa.jpg">
       <destaque
         >Há mais de cinco anos no mercado, trabalhando para assegurar a posição
         de vanguarda aos nossos clientes</destaque
