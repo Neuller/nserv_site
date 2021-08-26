@@ -50,25 +50,6 @@
     word-break: break-word!important;
 }
 
-.canal {
-    background: url(../img/desenvolvimento/bg-card1.jpg);
-    background-size: cover;
-}
-
-.ihgmg {
-    background: url(../img/desenvolvimento/bg-card2.jpg);
-    background-size: cover;
-}
-
-.fazenda {
-    background: url(../img/desenvolvimento/bg-card3.jpg);
-    background-size: cover;
-}
-
-.solar {
-    background: url(../img/desenvolvimento/bg-card4.jpg);
-    background-size: cover;
-}
 
 .v-application .display-2 {
     font-size: 3rem !important;
