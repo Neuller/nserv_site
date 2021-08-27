@@ -3,9 +3,6 @@ module.exports = {
     "vuetify"
   ],
   configureWebpack: {
-    plugins: [
-      new MyAwesomeWebpackPlugin()
-    ]
   }
 }
 
