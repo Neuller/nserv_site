@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <v-parallax class="destaque nserv" dark src="..\assets\img\principal\bg-principal.jpg">
+    <v-parallax class="destaque nserv" dark src="..\assets\img\bg-principal.jpg">
       <destaque> Compartilhando nossa paixão pela <b>Tecnologia</b>.</destaque>
     </v-parallax>
 
@@ -15,7 +15,7 @@
             <v-card class>
               <v-img
                 class="white--text align-end"
-                src="..\assets\img\desenvolvimento\bg-desenvolvimento.jpg"
+                src="..\assets\img\bg-desenvolvimento.jpg"
                 gradient="rgba(30, 100, 130, .65), rgba(100, 100, 100, .85)"
                 height="450px"
               >
@@ -122,7 +122,7 @@
             <v-card class>
               <v-img
                 class="white--text align-end cardEducacional"
-                src="..\assets\img\manutencao\bg-manutencao.jpg"
+                src="..\assets\img\bg-manutencao.jpg"
                 gradient="rgba(30, 100, 130, .65), rgba(100, 100, 100, .85)"
                 height="450px"
               >
@@ -230,7 +230,7 @@
             <v-card class>
               <v-img
                 class="white--text align-end"
-                src="..\assets\img\vendas\bg-vendas.jpg"
+                src="..\assets\img\bg-vendas.jpg"
                 gradient="rgba(30, 100, 130, .65), rgba(100, 100, 100, .85)"
                 height="450px"
               >
