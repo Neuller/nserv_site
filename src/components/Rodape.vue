@@ -87,7 +87,7 @@
         <v-col cols="12" md="6" class="pa-0">
           <span class="d-block font-weight-light text-caption pa-1 font-italic">
             Copyright
-            <b>2021 ©</b>
+            <b>2022 ©</b>
           </span>
         </v-col>
         <v-col
