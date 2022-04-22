@@ -17,9 +17,7 @@
           md="2"
           class="d-flex justify-space-around align-center"
         >
-          <!-- <v-btn href="#" target="_blank" text>
-            <v-icon large class="nserv--text">mdi-facebook</v-icon>
-          </v-btn> -->
+          <!-- INSTAGRAM -->
           <v-btn
             href="https://www.instagram.com/nserv.informatica/"
             target="_blank"
@@ -27,18 +25,23 @@
           >
             <v-icon large class="nserv--text">mdi-instagram</v-icon>
           </v-btn>
-          <!-- <v-btn href="#" target="_blank" text>
-            <v-icon large class="nserv--text">mdi-twitter</v-icon>
-          </v-btn>
-          <v-btn href="#" target="_blank" text>
-            <v-icon large class="nserv--text">mdi-youtube</v-icon>
-          </v-btn> -->
+
+          <!-- LINKEDIN -->
           <v-btn
             href="https://www.linkedin.com/company/nserv-informatica"
             target="_blank"
             text
           >
             <v-icon large class="nserv--text">mdi-linkedin</v-icon>
+          </v-btn>
+
+          <!-- WHATSAPP -->
+          <v-btn
+            href="https://wa.me/message/HZGDSPRQ6JNJK1"
+            target="_blank"
+            text
+          >
+            <v-icon large class="nserv--text">mdi-whatsapp</v-icon>
           </v-btn>
         </v-col>
         <v-spacer class="d-none d-lg-block"></v-spacer>
