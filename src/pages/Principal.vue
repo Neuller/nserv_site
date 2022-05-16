@@ -10,7 +10,7 @@
           <template v-slot:titulo>Conheça nossos Serviços</template>
         </titleH2>
         <v-row>
-          <!-- Desenvolvimento -->
+          <!-- DESENVOLVIMENTO -->
           <v-col cols="12" sm="4" class="text-left">
             <v-card class>
               <v-img
@@ -82,42 +82,19 @@
                     </v-list-item>
                   </v-list>
                   <v-divider dark></v-divider>
-
-                  <!-- EM CONSTRUÇÃO -->
-                  <div
-                    class="text-center d-flex align-center justify-space-around"
-                  >
-                    <v-tooltip
-                      v-model="emConstrucaoDesenvolvimento"
-                      v-if="emConstrucaoDesenvolvimento"
-                      bottom
-                    >
-                      <template v-slot:activator="{ on, attrs }">
-                        <v-btn icon v-bind="attrs" v-on="on">
-                          <v-icon color="grey lighten-1">
-                            mdi-emoticon-sad-outline
-                          </v-icon>
-                        </v-btn>
-                      </template>
-                      <span>Em Construção...</span>
-                    </v-tooltip>
-                  </div>
-
                   <v-btn
                     block
                     tile
                     dark
-                    to="/"
                     text
-                    @click="saibaMaisDesenvolvimento()"
-                    >Saiba mais!</v-btn
-                  >
+                    >
+                  </v-btn>
                 </div>
               </v-img>
             </v-card>
           </v-col>
 
-          <!-- Manutenção -->
+          <!-- MANUTENCAO -->
           <v-col cols="12" sm="4" class="text-left">
             <v-card class>
               <v-img
@@ -189,43 +166,19 @@
                       </v-list-item-icon>
                     </v-list-item>
                   </v-list>
-                  <v-divider dark></v-divider>
-
-                  <!-- EM CONSTRUÇÃO -->
-                  <div
-                    class="text-center d-flex align-center justify-space-around"
-                  >
-                    <v-tooltip
-                      v-model="emConstrucaoManutencao"
-                      v-if="emConstrucaoManutencao"
-                      bottom
-                    >
-                      <template v-slot:activator="{ on, attrs }">
-                        <v-btn icon v-bind="attrs" v-on="on">
-                          <v-icon color="grey lighten-1">
-                            mdi-emoticon-sad-outline
-                          </v-icon>
-                        </v-btn>
-                      </template>
-                      <span>Em Construção...</span>
-                    </v-tooltip>
-                  </div>
-
                   <v-btn
                     block
                     tile
                     dark
-                    to="/"
                     text
-                    @click="saibaMaisManutencao()"
-                    >Saiba Mais!</v-btn
-                  >
+                    >
+                  </v-btn>
                 </div>
               </v-img>
             </v-card>
           </v-col>
 
-          <!-- Vendas -->
+          <!-- VENDAS -->
           <v-col cols="12" sm="4" class="text-left">
             <v-card class>
               <v-img
@@ -297,36 +250,14 @@
                     </v-list-item>
                   </v-list>
                   <v-divider dark></v-divider>
-
-                  <!-- EM CONSTRUÇÃO -->
-                  <div
-                    class="text-center d-flex align-center justify-space-around"
-                  >
-                    <v-tooltip
-                      v-model="emConstrucaoVendas"
-                      v-if="emConstrucaoVendas"
-                      bottom
-                    >
-                      <template v-slot:activator="{ on, attrs }">
-                        <v-btn icon v-bind="attrs" v-on="on">
-                          <v-icon color="grey lighten-1">
-                            mdi-emoticon-sad-outline
-                          </v-icon>
-                        </v-btn>
-                      </template>
-                      <span>Em Construção...</span>
-                    </v-tooltip>
-                  </div>
-
                   <v-btn
                     block
                     tile
                     dark
-                    to="/"
+                    to="/vendasProdutos"
                     text
-                    @click="saibaMaisVendas()"
-                    >Saiba mais!</v-btn
-                  >
+                    >Saiba mais!
+                  </v-btn>
                 </div>
               </v-img>
             </v-card>
@@ -340,43 +271,17 @@
 <script lang ="ts">
 import Vue from "vue";
 import { Component } from "vue-property-decorator";
+
 @Component
 export default class Home extends Vue {
-  emConstrucaoDesenvolvimento: boolean = false;
-  emConstrucaoManutencao: boolean = false;
-  emConstrucaoVendas: boolean = false;
-
-  async saibaMaisDesenvolvimento() {
-    if (this.emConstrucaoDesenvolvimento == false) {
-      this.emConstrucaoDesenvolvimento = true;
-    } else {
-      this.emConstrucaoDesenvolvimento = false;
-    }
-  }
-
-  async saibaMaisManutencao() {
-    if (this.emConstrucaoManutencao == false) {
-      this.emConstrucaoManutencao = true;
-    } else {
-      this.emConstrucaoManutencao = false;
-    }
-  }
-
-  async saibaMaisVendas() {
-    if (this.emConstrucaoVendas == false) {
-      this.emConstrucaoVendas = true;
-    } else {
-      this.emConstrucaoVendas = false;
-    }
-  }
 }
 </script>
 
 <style lang="scss" scoped>
-.tooltip {
-  color: red;
-  background: red;
-}
+  .tooltip {
+    color: red;
+    background: red;
+  }
 </style>
 
 

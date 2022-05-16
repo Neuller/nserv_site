@@ -205,8 +205,9 @@ export default class Empresa extends Vue {
   }
 }
 </script>
+
 <style lang="scss">
-.v-expansion-panel-content > div {
-  padding: 0 !important;
-}
+  .v-expansion-panel-content > div {
+    padding: 0 !important;
+  }
 </style>
