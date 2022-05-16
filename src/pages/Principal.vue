@@ -166,6 +166,7 @@
                       </v-list-item-icon>
                     </v-list-item>
                   </v-list>
+                  <v-divider dark></v-divider>
                   <v-btn
                     block
                     tile
