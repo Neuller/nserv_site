@@ -45,7 +45,7 @@
             R$ • Contagem, Nserv Informática
           </div>
 
-          <div>CPU CORE I3 10100 3.60Ghz 10GE</div>
+          <div>CPU CORE I3 10100 3.60GHZ</div>
           <div>MB ASUS H510M-E PRIME (1200) DDR4 11/10</div>
           <div>8GB DDR4 2400Mhz</div>
           <div>SSD 240GB</div>
@@ -111,7 +111,7 @@
             R$ • Contagem, Nserv Informática
           </div>
 
-          <div>CPU CORE I5 10400 2.90Ghz</div>
+          <div>CPU CORE I5 10400 2.90GHZ</div>
           <div>MB ASUS H510M-E PRIME (1200) DDR4 11/10</div>
           <div>8GB DDR4 2400Mhz</div>
           <div>SSD 240GB</div>
@@ -177,7 +177,7 @@
             R$ • Contagem, Nserv Informática
           </div>
 
-          <div>CPU CORE I7</div>
+          <div>CPU CORE I7 10700F 2.9 GHZ</div>
           <div>MB ASUS H510M-E PRIME (1200) DDR4 11/10</div>
           <div>8GB DDR4 2400Mhz</div>
           <div>SSD 240GB</div>
@@ -190,6 +190,8 @@
           <v-btn
             color="red lighten-2"
             text
+            href="/documentos/CPU_CORE_I7.pdf"
+            target="_blank"
             @click="reserve3"
           >
             DOWNLOAD
