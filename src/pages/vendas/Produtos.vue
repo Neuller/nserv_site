@@ -1,29 +1,35 @@
 <template>
   <div class="vendasProdutos">
     <!-- CAROUSEL -->
-    <v-carousel 
-    v-model="model"
-    cycle
-    height="500"
+    <div 
+    offset-y
+    text-center
+    class="desktop"
     >
-      <v-carousel-item
-        v-for="(item, i) in items"
-        :key="i"
-        :src="item.src"
+      <v-carousel 
+      v-model="model"
+      cycle
+      height="500"
       >
-          <v-row
-            class="fill-height"
-            align="center"
-            justify="center"
-          >
-          </v-row>
-      </v-carousel-item>
-    </v-carousel>
+        <v-carousel-item
+          v-for="(item, i) in items"
+          :key="i"
+          :src="item.src"
+        >
+            <v-row
+              class="fill-height"
+              align="center"
+              justify="center"
+            >
+            </v-row>
+        </v-carousel-item>
+      </v-carousel>
+    </div>
 
     <!-- COMPUTADORES -->
     <v-row>
       <v-col cols="12">
-        <titleH2 class="pt-10">
+        <titleH2 class="mt-16">
           <template v-slot:titulo>Computadores</template>
         </titleH2>
         <computadores></computadores>
@@ -60,5 +66,10 @@ export default class Produtos extends Vue {
 <style lang="scss">
 .v-expansion-panel-content > div {
   padding: 0 !important;
+}
+@media(max-width: 760px) {
+  .desktop {
+    display: none;
+  }
 }
 </style>
