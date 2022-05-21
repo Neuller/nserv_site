@@ -24,7 +24,7 @@ import Suporte from './components/vagas/Suporte.vue';
 import Designer from './components/vagas/Designer.vue';
 import Administrativo from './components/vagas/Administrativo.vue';
 import Computadores from './components/vendas/Computadores.vue';
-import Promocoes from './components/vendas/Promocoes.vue';
+import PlacasMae from './components/vendas/PlacasMae.vue';
 
 // COMPONENTES
 
@@ -64,7 +64,7 @@ Vue.component('administrativo', Administrativo);
 
 Vue.component("computadores", Computadores);
 
-Vue.component("promocoes", Promocoes);
+Vue.component("placasMae", PlacasMae);
 
 Vue.use(VueResource);
 

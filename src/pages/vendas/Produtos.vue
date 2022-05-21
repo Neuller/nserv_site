@@ -36,13 +36,13 @@
       </v-col>
     </v-row>
 
-    <!-- PROMOCOES -->
+    <!-- PLACAS MAE -->
     <v-row>
       <v-col cols="12">
         <titleH2 class="mt-16">
-          <template v-slot:titulo>Produtos em Promoções</template>
+          <template v-slot:titulo>Placas Mãe</template>
         </titleH2>
-        <promocoes></promocoes>
+        <placasMae></placasMae>
       </v-col>
     </v-row>
   </div>
