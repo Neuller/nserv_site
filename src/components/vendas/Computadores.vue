@@ -37,12 +37,12 @@
             ></v-rating>
 
             <div class="grey--text ms-4">
-              4.0 (413)
+              4.0
             </div>
           </v-row>
 
-          <div class="my-4 text-subtitle-1">
-            R$ • Contagem, Nserv Informática
+          <div class="my-4 text-subtitle-1 red--text">
+            R$ • CONSULTE DISPONIBILIDADE
           </div>
 
           <div>CPU CORE I3 10100 3.60GHZ</div>
@@ -50,6 +50,7 @@
           <div>8GB DDR4 2400Mhz</div>
           <div>SSD 240GB</div>
           <div>GABINETE KMEX</div>
+          <div>WINDOWS 11</div>
         </v-card-text>
 
         <v-divider class="mx-4"></v-divider>
@@ -103,12 +104,12 @@
             ></v-rating>
 
             <div class="grey--text ms-4">
-              4.5 (685)
+              4.5
             </div>
           </v-row>
 
-          <div class="my-4 text-subtitle-1">
-            R$ • Contagem, Nserv Informática
+          <div class="my-4 text-subtitle-1 red--text">
+            R$ • CONSULTE DISPONIBILIDADE
           </div>
 
           <div>CPU CORE I5 10400 2.90GHZ</div>
@@ -116,6 +117,7 @@
           <div>8GB DDR4 2400Mhz</div>
           <div>SSD 240GB</div>
           <div>GABINETE KMEX</div>
+          <div>WINDOWS 11</div>
         </v-card-text>
 
         <v-divider class="mx-4"></v-divider>
@@ -169,12 +171,12 @@
             ></v-rating>
 
             <div class="grey--text ms-4">
-              5.0 (1.051)
+              5.0
             </div>
           </v-row>
 
-          <div class="my-4 text-subtitle-1">
-            R$ • Contagem, Nserv Informática
+          <div class="my-4 text-subtitle-1 red--text">
+            R$ • CONSULTE DISPONIBILIDADE
           </div>
 
           <div>CPU CORE I7 10700F 2.9 GHZ</div>
@@ -182,6 +184,7 @@
           <div>8GB DDR4 2400Mhz</div>
           <div>SSD 240GB</div>
           <div>GABINETE KMEX</div>
+          <div>WINDOWS 11</div>
         </v-card-text>
 
         <v-divider class="mx-4"></v-divider>

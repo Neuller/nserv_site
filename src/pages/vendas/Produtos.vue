@@ -35,6 +35,16 @@
         <computadores></computadores>
       </v-col>
     </v-row>
+
+    <!-- PROMOCOES -->
+    <v-row>
+      <v-col cols="12">
+        <titleH2 class="mt-16">
+          <template v-slot:titulo>Produtos em Promoções</template>
+        </titleH2>
+        <promocoes></promocoes>
+      </v-col>
+    </v-row>
   </div>
 </template>
 

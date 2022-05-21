@@ -24,6 +24,7 @@ import Suporte from './components/vagas/Suporte.vue';
 import Designer from './components/vagas/Designer.vue';
 import Administrativo from './components/vagas/Administrativo.vue';
 import Computadores from './components/vendas/Computadores.vue';
+import Promocoes from './components/vendas/Promocoes.vue';
 
 // COMPONENTES
 
@@ -62,6 +63,8 @@ Vue.component('designer-estagio', DesignerEstagio);
 Vue.component('administrativo', Administrativo);
 
 Vue.component("computadores", Computadores);
+
+Vue.component("promocoes", Promocoes);
 
 Vue.use(VueResource);
 
