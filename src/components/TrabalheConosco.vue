@@ -104,23 +104,23 @@
             </v-row>
           </v-card> -->
 
-          <p class="text-h5 font-weight-thin text-center mt-5">Oportunidades</p>
+          <!-- <p class="text-h5 font-weight-thin text-center mt-5">Oportunidades</p> -->
 
-          <v-row justify="center" class="d-flex align-stretch">
-            <!-- <desenvolvedor></desenvolvedor> -->
+          <!-- <v-row justify="center" class="d-flex align-stretch">
+            <desenvolvedor></desenvolvedor> -->
             <!-- <desenvolvedor-estagio></desenvolvedor-estagio> -->
             <!-- <suporte></suporte> -->
             <!-- <suporte-estagio></suporte-estagio> -->
             <!-- <designer></designer> -->
             <!-- <designer-estagio></designer-estagio>
             <administrativo></administrativo> -->
-          </v-row>
+          </v-row> -->
 
           <p class="text-h5 font-weight-thin text-center mt-5">
             Banco de Talentos
           </p>
           <p class="text-center font-italic font-weight-light mt-n3">
-            Não encontrou sua vaga? Envie seu currículo para nosso banco de
+            Envie seu currículo para o nosso banco de
             talentos.
           </p>
 
