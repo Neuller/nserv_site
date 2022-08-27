@@ -108,12 +108,12 @@
 
           <v-row justify="center" class="d-flex align-stretch">
             <!-- <desenvolvedor></desenvolvedor> -->
-            <desenvolvedor-estagio></desenvolvedor-estagio>
+            <!-- <desenvolvedor-estagio></desenvolvedor-estagio> -->
             <!-- <suporte></suporte> -->
-            <suporte-estagio></suporte-estagio>
+            <!-- <suporte-estagio></suporte-estagio> -->
             <!-- <designer></designer> -->
-            <designer-estagio></designer-estagio>
-            <administrativo></administrativo>
+            <!-- <designer-estagio></designer-estagio>
+            <administrativo></administrativo> -->
           </v-row>
 
           <p class="text-h5 font-weight-thin text-center mt-5">

@@ -5,7 +5,7 @@ import vuetify from "./plugins/vuetify";
 import Destaque from "./components/Destaque.vue";
 import FormularioContato from "./components/FormularioContato.vue";
 import VueResource from "vue-resource"
-import TitleH2 from "./components/all/TitleH2.vue"
+import TitleH2 from "./components/genericos/TitleH2.vue"
 import Numeros from "./components/Numeros.vue"
 import Visao from "./components/Visao.vue"
 import Missao from "./components/Missao.vue"
@@ -26,7 +26,7 @@ import Administrativo from "./components/vagas/Administrativo.vue";
 import Computadores from "./components/vendas/Computadores.vue";
 import PlacasMae from "./components/vendas/PlacasMae.vue";
 import Memorias from "./components/vendas/Memorias.vue";
-import TemplateCard from "./components/all/TemplateCard.vue"
+import TemplateCard from "./components/genericos/TemplateCard.vue"
 
 // COMPONENTES
 Vue.component("destaque", Destaque);
