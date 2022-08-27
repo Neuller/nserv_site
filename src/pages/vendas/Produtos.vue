@@ -45,6 +45,16 @@
         <placasMae></placasMae>
       </v-col>
     </v-row>
+
+    <!-- MEMORIAS -->
+    <v-row>
+      <v-col cols="12">
+        <titleH2 class="mt-16">
+          <template v-slot:titulo>Memórias</template>
+        </titleH2>
+        <memorias></memorias>
+      </v-col>
+    </v-row>
   </div>
 </template>
 

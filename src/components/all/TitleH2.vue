@@ -17,8 +17,10 @@
 <script lang="ts">
   import Vue from "vue";
   import { Component } from "vue-property-decorator";
+  
   @Component
   export default class TitleH2 extends Vue {}
 </script>
+
 <style lang="scss">
 </style>
