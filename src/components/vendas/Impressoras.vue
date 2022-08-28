@@ -20,7 +20,7 @@
         </template>
         <template v-slot:titulo>HP LASER 107W MONO 4ZB78A</template>
         <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
-        <template v-slot:codigo>COD. 8417</template>
+        <template v-slot:codigo>8417</template>
       </templateCard>
 
       <!-- TEMPLATE3 -->
@@ -30,7 +30,7 @@
         </template>
         <template v-slot:titulo>HP MULTIFUNCIONAL 2774</template>
         <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
-        <template v-slot:codigo>COD. 4117</template>
+        <template v-slot:codigo>4117</template>
         <template v-slot:desc1>C/ WIRELESS</template>
       </templateCard>
 

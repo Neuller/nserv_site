@@ -40,6 +40,18 @@
       </div>
 
       <div>
+        <slot name="modelo"></slot>
+      </div>
+
+      <div>
+        <slot name="capacidade"></slot>
+      </div>
+
+      <div>
+        <slot name="marca"></slot>
+      </div>
+      
+      <div>
         <slot name="desc1"></slot>
       </div>
       <div>
@@ -59,15 +71,6 @@
       </div>
       <div>
         <slot name="desc7"></slot>
-      </div>
-      <div>
-        <slot name="desc8"></slot>
-      </div>
-      <div>
-        <slot name="desc9"></slot>
-      </div>
-      <div>
-        <slot name="desc10"></slot>
       </div>
     </v-card-text>
   </v-card>

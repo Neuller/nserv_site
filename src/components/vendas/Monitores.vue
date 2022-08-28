@@ -8,9 +8,9 @@
         </template>
         <template v-slot:titulo>MONITOR AOC 18,5"</template>
         <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
-        <template v-slot:codigo>COD. 4643</template>
-        <template v-slot:desc1>MODELO E970SWHNL</template>
-        <template v-slot:desc2>VGA HDMI</template>
+        <template v-slot:codigo>4643</template>
+        <template v-slot:modelo>E970SWHNL</template>
+        <template v-slot:desc1>VGA HDMI</template>
       </templateCard>
       
       <!-- TEMPLATE2 -->
@@ -20,9 +20,9 @@
         </template>
         <template v-slot:titulo>MONITOR AOC 21,5"</template>
         <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
-        <template v-slot:codigo>COD. 1903</template>
-        <template v-slot:desc1>MODELO E2270SWHEN</template>
-        <template v-slot:desc2>HDMI</template>
+        <template v-slot:codigo>1903</template>
+        <template v-slot:modelo>E2270SWHEN</template>
+        <template v-slot:desc1>HDMI</template>
       </templateCard>
 
       <!-- TEMPLATE3 -->
@@ -32,9 +32,9 @@
         </template>
         <template v-slot:titulo>MONITOR BRAZILPC 19"</template>
         <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
-        <template v-slot:codigo>COD. 0349</template>
-        <template v-slot:desc1>MODELO BPC-19WE02-B</template>
-        <template v-slot:desc2>HDMI</template>
+        <template v-slot:codigo>0349</template>
+        <template v-slot:modelo>BPC-19WE02-B</template>
+        <template v-slot:desc1>HDMI</template>
       </templateCard>
 
       <!-- TEMPLATE4 -->
@@ -44,9 +44,9 @@
         </template>
         <template v-slot:titulo>TV MULTILASER 43"</template>
         <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
-        <template v-slot:codigo>COD. 8428</template>
-        <template v-slot:desc1>MODELO TL027</template>
-        <template v-slot:desc2>LED SMART</template>
+        <template v-slot:codigo>8428</template>
+        <template v-slot:modelo>MODELO TL027</template>
+        <template v-slot:desc1>LED SMART</template>
       </templateCard>
 
     </v-row>

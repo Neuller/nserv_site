@@ -8,9 +8,9 @@
         </template>
         <template v-slot:titulo>MEMÓRIAS P/ COMPUTADORES</template>
         <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
-        <template v-slot:desc1>CAPACIDADEs 4GB / 8GB / 16GB</template>
-        <template v-slot:desc2>MODELOs DDR3 / DDR4</template>
-        <template v-slot:desc3>MARCAs KINGSTON / MARKVISION / CRUCIAL / WINMEMORY</template>
+        <template v-slot:capacidade>4GB / 8GB / 16GB</template>
+        <template v-slot:modelo>DDR3 / DDR4</template>
+        <template v-slot:marca>KINGSTON / MARKVISION / CRUCIAL / WINMEMORY</template>
       </templateCard>
       
       <!-- TEMPLATE2 -->
@@ -20,9 +20,9 @@
         </template>
         <template v-slot:titulo>MEMÓRIAS P/ NOTEBOOKs</template>
         <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
-        <template v-slot:desc1>CAPACIDADEs 4GB / 8GB / 16GB</template>
-        <template v-slot:desc2>MODELOs DDR3 / DDR4</template>
-        <template v-slot:desc3>MARCAs KINGSTON / MARKVISION / CRUCIAL / WINMEMORY</template>
+        <template v-slot:capacidade>4GB / 8GB / 16GB</template>
+        <template v-slot:modelo>DDR3 / DDR4</template>
+        <template v-slot:marca>KINGSTON / MARKVISION / CRUCIAL / WINMEMORY</template>
       </templateCard>
     </v-row>
   </div>

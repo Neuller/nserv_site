@@ -6,7 +6,7 @@
         "build": "vue-cli-service build",
         "lint": "vue-cli-service lint"
     },
-    "author": "Neuller Cesar <neuller97@hotmail.com>",
+    "author": "Nserv <nserv@hotmail.com>",
     "license": "ISC",
     "dependencies": {
         "@types/vue-the-mask": "^0.11.1",

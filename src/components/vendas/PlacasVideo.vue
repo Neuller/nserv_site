@@ -8,9 +8,9 @@
         </template>
         <template v-slot:titulo>VGA INTEL</template>
         <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
-        <template v-slot:desc1>CAPACIDADEs 4GB / 6GB</template>
-        <template v-slot:desc2>MODELOs GT730 DDR3 / GTX1050TI - GTX1650 - GTX1660TI DDR5/6</template>
-        <template v-slot:desc3>MARCAs AFOX / GIGABYTE / GALAX</template>
+        <template v-slot:capacidade>4GB / 6GB</template>
+        <template v-slot:modelo>GT730 DDR3 / GTX1050TI - GTX1650 - GTX1660TI DDR5/6</template>
+        <template v-slot:marca>AFOX / GIGABYTE / GALAX</template>
       </templateCard>
       
       <!-- TEMPLATE2 -->
@@ -20,9 +20,9 @@
         </template>
         <template v-slot:titulo>VGA AMD</template>
         <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
-        <template v-slot:desc1>CAPACIDADEs 4GB</template>
-        <template v-slot:desc2>MODELOs RX550 128B DDR5</template>
-        <template v-slot:desc3>MARCAs PCYES</template>
+        <template v-slot:capacidade>4GB</template>
+        <template v-slot:modelo>RX550 128B DDR5</template>
+        <template v-slot:marca>PCYES</template>
       </templateCard>
     </v-row>
   </div>

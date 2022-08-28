@@ -8,9 +8,9 @@
         </template>
         <template v-slot:titulo>DISCO RÍGIDO (MECÂNICO)</template>
         <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
-        <template v-slot:desc1>CAPACIDADEs 1TB / 2TB</template>
-        <template v-slot:desc2>MODELO SATA3 / SKYHAWK GS0160 / GS0161</template>
-        <template v-slot:desc3>MARCAs SEAGATE</template>
+        <template v-slot:capacidade>1TB / 2TB</template>
+        <template v-slot:modelo>SATA3 / SKYHAWK GS0160 / GS0161</template>
+        <template v-slot:marca>SEAGATE</template>
       </templateCard>
 
       <!-- TEMPLATE2 -->
@@ -20,8 +20,8 @@
         </template>
         <template v-slot:titulo>SSD's</template>
         <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
-        <template v-slot:desc1>CAPACIDADEs 120GB / 240GB / 480GB</template>
-        <template v-slot:desc2>MARCAs MULTILASER / KINGSTON / GIGABYTE / MAXPRINT</template>
+        <template v-slot:capacidade>120GB / 240GB / 480GB</template>
+        <template v-slot:marca>MULTILASER / KINGSTON / GIGABYTE / MAXPRINT</template>
       </templateCard>
 
       <!-- TEMPLATE3 -->
@@ -31,8 +31,8 @@
         </template>
         <template v-slot:titulo>SSD's M2</template>
         <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
-        <template v-slot:desc1>CAPACIDADEs 128GB / 240GB / 256GB</template>
-        <template v-slot:desc2>MARCAs PATRIOT / ADATA / KINGSPEC</template>
+        <template v-slot:capacidade>128GB / 240GB / 256GB</template>
+        <template v-slot:marca>PATRIOT / ADATA / KINGSPEC</template>
       </templateCard>
 
     </v-row>
