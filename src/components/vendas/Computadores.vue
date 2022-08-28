@@ -17,7 +17,7 @@
 
         <v-img
           height="250"
-          src="/vendas/computadores/CPU_CORE_I3.png"
+          src="/vendas/computadores/cpu_core_i3.png"
         ></v-img>
 
         <v-card-title>I3 10GE 8GB DDR4 240GB W11</v-card-title>
@@ -84,7 +84,7 @@
 
         <v-img
           height="250"
-          src="/vendas/computadores/CPU_CORE_I5.png"
+          src="/vendas/computadores/cpu_core_i5.png"
         ></v-img>
 
         <v-card-title>I5 10GE 8GB DDR4 240GB W11</v-card-title>
@@ -151,7 +151,7 @@
 
         <v-img
           height="250"
-          src="/vendas/computadores/CPU_CORE_I7.png"
+          src="/vendas/computadores/cpu_core_i7.png"
         ></v-img>
 
         <v-card-title>I7 10GE 8GB DDR4 240GB W11</v-card-title>
