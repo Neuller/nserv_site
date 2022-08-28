@@ -4,7 +4,7 @@
       <!-- TEMPLATE1 -->
       <templateCard>
         <template v-slot:imagem>
-          <img :src="'/vendas/MB_TUF_GAMING.png'" height="250"/>
+          <img :src="'/vendas/placas_mae/MB_TUF_GAMING.png'" height="250"/>
         </template>
         <template v-slot:titulo>ASUS TUF B360M-PLUS</template>
         <template v-slot:preco>R$ • 589,90</template>
@@ -22,14 +22,29 @@
       <!-- TEMPLATE2 -->
       <templateCard>
         <template v-slot:imagem>
-          <img :src="'/vendas/MB_H410M_E_PRIME.png'" height="250"/>
+          <img :src="'/vendas/placas_mae/MB_H410M_E_PRIME.png'" height="250"/>
         </template>
         <template v-slot:titulo>MB ASUS H410M-E PRIME</template>
         <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
-        <template v-slot:desc1>DDR4</template>
-        <template v-slot:desc2>SOCKET 1200</template>
-        <template v-slot:desc3>10/11 GERAÇÃO</template>
+        <template v-slot:codigo>COD. 1638</template>
+        <template v-slot:desc1>INTEL LGA 1200</template>
+        <template v-slot:desc2>SUPORTE A DDR4</template>
+        <template v-slot:desc3>P/ PROCESSADORES DA 10/11 GERAÇÃO</template>
       </templateCard>
+
+      <!-- TEMPLATE3 -->
+      <templateCard>
+        <template v-slot:imagem>
+          <img :src="'/vendas/placas_mae/mb_pcware_ipmh510g.png'" height="250"/>
+        </template>
+        <template v-slot:titulo>MB PCWARE H510-G</template>
+        <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
+        <template v-slot:codigo>COD. 7415</template>
+        <template v-slot:desc1>INTEL LGA 1200</template>
+        <template v-slot:desc2>SUPORTE A DDR4</template>
+        <template v-slot:desc3>P/ PROCESSADORES DA 10/11 GERAÇÃO</template>
+      </templateCard>
+
     </v-row>
   </div>
 </template>
@@ -40,27 +55,7 @@ import Vue from "vue";
 import { Component } from "vue-property-decorator";
 
 @Component
-export default class Rodape extends Vue {
-    loading1 = false;
-    loading2 = false;
-    loading3 = false;
-    selection = 1;
-
-    reserve1() {
-      this.loading1 = true;
-      setTimeout(() => (this.loading1 = false), 2000);
-    }
-
-    reserve2() {
-      this.loading2 = true;
-      setTimeout(() => (this.loading2 = false), 2000);
-    }
-
-    reserve3() {
-      this.loading3 = true;
-      setTimeout(() => (this.loading3 = false), 2000);
-    }
-}
+export default class PlacasMae extends Vue {}
 </script>
 
 <style lang="scss">

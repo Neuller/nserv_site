@@ -4,13 +4,25 @@
       <!-- TEMPLATE1 -->
       <templateCard>
         <template v-slot:imagem>
-          <img :src="'/vendas/MEMORIAS.png'" height="250"/>
+          <img :src="'/vendas/memorias/memorias_desktop.png'" height="250"/>
         </template>
-        <template v-slot:titulo>MEMÓRIAS DDR</template>
+        <template v-slot:titulo>MEMÓRIAS P/ COMPUTADORES</template>
         <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
-        <template v-slot:desc1>DDR3 - 1333MHZ/2400MHZ</template>
-        <template v-slot:desc2>DDR4 - 2400MHZ/2666MHZ/3200MHZ</template>
-        <template v-slot:desc3>P/ COMPUTADORES E NOTEBOOKS</template>
+        <template v-slot:desc1>CAPACIDADEs 4GB / 8GB / 16GB</template>
+        <template v-slot:desc2>MODELOs DDR3 / DDR4</template>
+        <template v-slot:desc3>MARCAs KINGSTON / MARKVISION / CRUCIAL / WINMEMORY</template>
+      </templateCard>
+      
+      <!-- TEMPLATE2 -->
+      <templateCard>
+        <template v-slot:imagem>
+          <img :src="'/vendas/memorias/memorias_note.png'" height="250"/>
+        </template>
+        <template v-slot:titulo>MEMÓRIAS P/ NOTEBOOKs</template>
+        <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
+        <template v-slot:desc1>CAPACIDADEs 4GB / 8GB / 16GB</template>
+        <template v-slot:desc2>MODELOs DDR3 / DDR4</template>
+        <template v-slot:desc3>MARCAs KINGSTON / MARKVISION / CRUCIAL / WINMEMORY</template>
       </templateCard>
     </v-row>
   </div>

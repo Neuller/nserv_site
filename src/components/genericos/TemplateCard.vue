@@ -34,7 +34,11 @@
       <div class="my-4 text-subtitle-1 red--text">
         <slot name="preco"></slot>
       </div>
-          
+
+      <div class="my-4 text-subtitle-1">
+        <slot name="codigo"></slot>
+      </div>
+
       <div>
         <slot name="desc1"></slot>
       </div>

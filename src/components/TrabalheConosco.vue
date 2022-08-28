@@ -1,7 +1,7 @@
 <template>
   <v-card class="transparent trabalhe" tile flat>
     <v-container>
-      <p class="text-center text-h4 font-weight-light mb-0">Trabalhe Conosco</p>
+      <p class="text-center text-h4 font-weight-light mb-0">TRABALHE CONOSCO</p>
       <v-row justify="center">
         <v-col cols="12" md="10">
           <p class="blockquote text-center">
@@ -113,11 +113,11 @@
             <!-- <suporte-estagio></suporte-estagio> -->
             <!-- <designer></designer> -->
             <!-- <designer-estagio></designer-estagio>
-            <administrativo></administrativo> -->
+            <administrativo></administrativo>
           </v-row> -->
 
           <p class="text-h5 font-weight-thin text-center mt-5">
-            Banco de Talentos
+            BANCO DE TALENTOS
           </p>
           <p class="text-center font-italic font-weight-light mt-n3">
             Envie seu currículo para o nosso banco de
@@ -145,7 +145,7 @@
                 <v-card-action>
                   <span
                     class="nserv d-block white--text text-center rounded-b px-2"
-                    >Informe no assunto do email a vaga pretendida.</span
+                    >INFORME NO ASSUNTO DO E-MAIL A VAGA PRETENDIDA.</span
                   >
                 </v-card-action>
               </v-card>

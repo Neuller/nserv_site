@@ -24,8 +24,14 @@ import Suporte from "./components/vagas/Suporte.vue";
 import Designer from "./components/vagas/Designer.vue";
 import Administrativo from "./components/vagas/Administrativo.vue";
 import Computadores from "./components/vendas/Computadores.vue";
+import AllInOne from "./components/vendas/AllInOne.vue";
+import Processadores from "./components/vendas/Processadores.vue";
 import PlacasMae from "./components/vendas/PlacasMae.vue";
 import Memorias from "./components/vendas/Memorias.vue";
+import DiscosRigidos from "./components/vendas/DiscosRigidos.vue";
+import PlacasVideo from "./components/vendas/PlacasVideo.vue";
+import Impressoras from "./components/vendas/Impressoras.vue";
+import Monitores from "./components/vendas/Monitores.vue";
 import TemplateCard from "./components/genericos/TemplateCard.vue"
 
 // COMPONENTES
@@ -47,8 +53,14 @@ Vue.component("designer", Designer);
 Vue.component("designer-estagio", DesignerEstagio);
 Vue.component("administrativo", Administrativo);
 Vue.component("computadores", Computadores);
+Vue.component("allInOne", AllInOne);
+Vue.component("processadores", Processadores);
 Vue.component("placasMae", PlacasMae);
 Vue.component("memorias", Memorias);
+Vue.component("discosRigidos", DiscosRigidos);
+Vue.component("placasVideo", PlacasVideo);
+Vue.component("impressoras", Impressoras);
+Vue.component("monitores", Monitores);
 Vue.component("templateCard", TemplateCard);
 
 Vue.use(VueResource);

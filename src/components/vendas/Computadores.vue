@@ -17,10 +17,10 @@
 
         <v-img
           height="250"
-          src="/vendas/CPU_CORE_I3.png"
+          src="/vendas/computadores/CPU_CORE_I3.png"
         ></v-img>
 
-        <v-card-title>CPU CORE I3 - 10ª GERACAO</v-card-title>
+        <v-card-title>I3 10GE 8GB DDR4 240GB W11</v-card-title>
 
         <v-card-text>
           <v-row
@@ -84,10 +84,10 @@
 
         <v-img
           height="250"
-          src="/vendas/CPU_CORE_I5.png"
+          src="/vendas/computadores/CPU_CORE_I5.png"
         ></v-img>
 
-        <v-card-title>CPU CORE I5 - 10ª GERACAO</v-card-title>
+        <v-card-title>I5 10GE 8GB DDR4 240GB W11</v-card-title>
 
         <v-card-text>
           <v-row
@@ -151,10 +151,10 @@
 
         <v-img
           height="250"
-          src="/vendas/CPU_CORE_I7.png"
+          src="/vendas/computadores/CPU_CORE_I7.png"
         ></v-img>
 
-        <v-card-title>CPU CORE I7 - 10ª GERACAO</v-card-title>
+        <v-card-title>I7 10GE 8GB DDR4 240GB W11</v-card-title>
 
         <v-card-text>
           <v-row
