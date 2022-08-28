@@ -42,7 +42,7 @@
           </v-row>
 
           <div class="my-4 text-subtitle-1 red--text">
-            R$ • CONSULTE DISPONIBILIDADE
+            R$ • 3.044,90
           </div>
 
           <div>CPU CORE I3 10100 3.60GHZ</div>
@@ -109,7 +109,7 @@
           </v-row>
 
           <div class="my-4 text-subtitle-1 red--text">
-            R$ • CONSULTE DISPONIBILIDADE
+            R$ • 3.544,90
           </div>
 
           <div>CPU CORE I5 10400 2.90GHZ</div>
@@ -176,7 +176,7 @@
           </v-row>
 
           <div class="my-4 text-subtitle-1 red--text">
-            R$ • CONSULTE DISPONIBILIDADE
+            R$ • 4.376,90
           </div>
 
           <div>CPU CORE I7 10700F 2.9 GHZ</div>

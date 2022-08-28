@@ -66,12 +66,6 @@
       <div>
         <slot name="desc5"></slot>
       </div>
-      <div>
-        <slot name="desc6"></slot>
-      </div>
-      <div>
-        <slot name="desc7"></slot>
-      </div>
     </v-card-text>
   </v-card>
 </template>

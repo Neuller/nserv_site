@@ -25,7 +25,7 @@
           <img :src="'/vendas/placas_mae/MB_H410M_E_PRIME.png'" height="250"/>
         </template>
         <template v-slot:titulo>MB ASUS H410M-E PRIME</template>
-        <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
+        <template v-slot:preco>R$ • 664.90</template>
         <template v-slot:codigo>COD. 1638</template>
         <template v-slot:desc1>INTEL LGA 1200</template>
         <template v-slot:desc2>SUPORTE A DDR4</template>
@@ -38,7 +38,7 @@
           <img :src="'/vendas/placas_mae/mb_pcware_ipmh510g.png'" height="250"/>
         </template>
         <template v-slot:titulo>MB PCWARE H510-G</template>
-        <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
+        <template v-slot:preco>R$ • 619.90</template>
         <template v-slot:codigo>COD. 7415</template>
         <template v-slot:desc1>INTEL LGA 1200</template>
         <template v-slot:desc2>SUPORTE A DDR4</template>

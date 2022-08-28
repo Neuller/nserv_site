@@ -7,7 +7,7 @@
           <img :src="'/vendas/computadores/all_in_one_compaq.png'" height="250"/>
         </template>
         <template v-slot:titulo>ALL IN ONE COMPAQ</template>
-        <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
+        <template v-slot:preco>R$ • 3.106,8</template>
         <template v-slot:codigo>COD. 7822</template>
         <template v-slot:desc1>PROCESSADOR INTEL CORE I3 7ª GE</template>
         <template v-slot:desc2>4GB MEMORIA</template>
@@ -21,7 +21,7 @@
           <img :src="'/vendas/computadores/all_in_one_positivo.png'" height="250"/>
         </template>
         <template v-slot:titulo>ALL IN ONE POSITIVO</template>
-        <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
+        <template v-slot:preco>R$ • 1.818,7</template>
         <template v-slot:codigo>COD. 8922</template>
         <template v-slot:desc1>PROCESSADOR INTEL CORE I3</template>
         <template v-slot:desc2>6GB MEMORIA</template>
@@ -35,7 +35,7 @@
           <img :src="'/vendas/computadores/all_in_one_thinkcentre.png'" height="250"/>
         </template>
         <template v-slot:titulo>ALL IN ONE THINKCENTRE E73Z</template>
-        <template v-slot:preco>R$ • CONSULTE DISPONIBILIDADE</template>
+        <template v-slot:preco>R$ • 1.688,7</template>
         <template v-slot:codigo>COD. 8833</template>
         <template v-slot:desc1>PROCESSADOR INTEL CORE I3</template>
         <template v-slot:desc2>4GB MEMORIA</template>
