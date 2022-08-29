@@ -66,6 +66,10 @@
       <div>
         <slot name="desc5"></slot>
       </div>
+
+      <div>
+        <slot name="garantia"></slot>
+      </div>
     </v-card-text>
   </v-card>
 </template>

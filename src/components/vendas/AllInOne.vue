@@ -10,9 +10,10 @@
         <template v-slot:preco>R$ • 3.106,8</template>
         <template v-slot:codigo>COD. 7822</template>
         <template v-slot:desc1>PROCESSADOR INTEL CORE I3 7100U (7GE)</template>
-        <template v-slot:desc2>4GB DDR4 MEMORIA</template>
+        <template v-slot:desc2>4GB DDR4</template>
         <template v-slot:desc3>500GB HD + 16GB OPTANE</template>
         <template v-slot:desc4>WINDOWS 10</template>
+        <template v-slot:garantia>GARANTIA 06 MESES</template>
       </templateCard>
       
       <!-- TEMPLATE2 -->
@@ -24,9 +25,10 @@
         <template v-slot:preco>R$ • 1.818,7</template>
         <template v-slot:codigo>COD. 8922</template>
         <template v-slot:desc1>PROCESSADOR INTEL CORE I3 3110M (3GE)</template>
-        <template v-slot:desc2>6GB MEMORIA</template>
+        <template v-slot:desc2>6GB DDR3</template>
         <template v-slot:desc3>120GB SSD</template>
         <template v-slot:desc4>WINDOWS 10</template>
+        <template v-slot:garantia>GARANTIA 06 MESES</template>
       </templateCard>
 
       <!-- TEMPLATE3 -->
@@ -38,9 +40,10 @@
         <template v-slot:preco>R$ • 1.688,7</template>
         <template v-slot:codigo>COD. 8833</template>
         <template v-slot:desc1>PROCESSADOR INTEL CORE I3 (4GE)</template>
-        <template v-slot:desc2>4GB MEMORIA</template>
+        <template v-slot:desc2>4GB DDR3</template>
         <template v-slot:desc3>500GB HD</template>
         <template v-slot:desc4>WINDOWS 10</template>
+        <template v-slot:garantia>GARANTIA 06 MESES</template>
       </templateCard>
     </v-row>
   </div>
