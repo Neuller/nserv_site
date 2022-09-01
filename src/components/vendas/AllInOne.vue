@@ -13,7 +13,7 @@
         <template v-slot:desc2>4GB DDR4</template>
         <template v-slot:desc3>500GB HD + 16GB OPTANE</template>
         <template v-slot:desc4>WINDOWS 10</template>
-        <template v-slot:garantia>GARANTIA 06 MESES</template>
+        <template v-slot:garantia>06 MESES DE GARANTIA</template>
       </templateCard>
       
       <!-- TEMPLATE2 -->
@@ -28,7 +28,7 @@
         <template v-slot:desc2>6GB DDR3</template>
         <template v-slot:desc3>120GB SSD</template>
         <template v-slot:desc4>WINDOWS 10</template>
-        <template v-slot:garantia>GARANTIA 06 MESES</template>
+        <template v-slot:garantia>06 MESES DE GARANTIA</template>
       </templateCard>
 
       <!-- TEMPLATE3 -->
@@ -43,7 +43,7 @@
         <template v-slot:desc2>4GB DDR3</template>
         <template v-slot:desc3>500GB HD</template>
         <template v-slot:desc4>WINDOWS 10</template>
-        <template v-slot:garantia>GARANTIA 06 MESES</template>
+        <template v-slot:garantia>06 MESES DE GARANTIA</template>
       </templateCard>
     </v-row>
   </div>
