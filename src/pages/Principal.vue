@@ -255,7 +255,7 @@
                     block
                     tile
                     dark
-                    to="/vendasProdutos"
+                    to="/vendas"
                     text
                     >Saiba mais!
                   </v-btn>
