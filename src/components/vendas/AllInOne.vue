@@ -32,7 +32,7 @@
       </templateCard>
 
       <!-- TEMPLATE3 -->
-      <templateCard>
+      <!-- <templateCard>
         <template v-slot:imagem>
           <img :src="'/vendas/computadores/all_in_one_thinkcentre.png'" height="250"/>
         </template>
@@ -44,7 +44,7 @@
         <template v-slot:desc3>500GB HD</template>
         <template v-slot:desc4>WINDOWS 10</template>
         <template v-slot:garantia>06 MESES DE GARANTIA</template>
-      </templateCard>
+      </templateCard> -->
     </v-row>
   </div>
 </template>
