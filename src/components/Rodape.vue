@@ -113,7 +113,7 @@
         <v-col cols="12" md="6" class="pa-0 text-left">
           <span class="d-block font-weight-light text-caption pa-0font-italic">
             Copyright
-            <b>2022 ©</b>
+            <b>2023 ©</b>
           </span>
         </v-col>
         <v-col
