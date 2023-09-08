@@ -1,7 +1,7 @@
 <template>
   <v-card class="transparent" tile flat>
     <v-container>
-      <p class="text-center text-h4 font-weight-light mb-0">Localização</p>
+      <!-- <p class="text-center text-h4 font-weight-light mb-0">Localização</p> -->
       <v-row justify="center  text-center">
         <v-col cols="12" md="10">
           <iframe

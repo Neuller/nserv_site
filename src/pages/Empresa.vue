@@ -16,21 +16,7 @@
       icons-and-text
       fixed-tabs
     >
-      <!-- MISSAO -->
-      <v-tab>
-        Missão
-        <v-icon>mdi-flag</v-icon>
-      </v-tab>
-      <!-- VISAO -->
-      <v-tab>
-        Visão
-        <v-icon>mdi-eye</v-icon>
-      </v-tab>
-      <!-- VALORES -->
-      <v-tab>
-        Valores
-        <v-icon>mdi-check-bold</v-icon>
-      </v-tab>
+      
       <!-- LOCALIZACAO -->
       <v-tab>
         Localização
@@ -42,30 +28,6 @@
         <v-icon>mdi-account-multiple-plus</v-icon>
       </v-tab>
 
-      <!-- MISSAO -->
-      <v-tab-item>
-        <v-card flat>
-          <v-card-text>
-            <missao></missao>
-          </v-card-text>
-        </v-card>
-      </v-tab-item>
-      <!-- VISAO -->
-      <v-tab-item>
-        <v-card flat>
-          <v-card-text>
-            <visao></visao>
-          </v-card-text>
-        </v-card>
-      </v-tab-item>
-      <!-- VALORES -->
-      <v-tab-item>
-        <v-card flat>
-          <v-card-text>
-            <valores></valores>
-          </v-card-text>
-        </v-card>
-      </v-tab-item>
       <!-- LOCALIZACAO -->
       <v-tab-item>
         <v-card flat>
@@ -85,51 +47,6 @@
     </v-tabs>
 
     <v-expansion-panels class="d-md-none" accordion focusable>
-      <!-- MISSAO -->
-      <v-expansion-panel @click="scrollToMissao()">
-        <div ref="missao">
-          <v-expansion-panel-header disable-icon-rotate>
-            Missão
-            <template v-slot:actions>
-              <v-icon>mdi-flag</v-icon>
-            </template>
-          </v-expansion-panel-header>
-        </div>
-        <v-expansion-panel-content>
-          <missao></missao>
-        </v-expansion-panel-content>
-      </v-expansion-panel>
-
-      <!-- VISAO -->
-      <v-expansion-panel @click="scrollToVisao()">
-        <div ref="visao">
-          <v-expansion-panel-header disable-icon-rotate>
-            Visão
-            <template v-slot:actions>
-              <v-icon>mdi-eye</v-icon>
-            </template>
-          </v-expansion-panel-header>
-        </div>
-        <v-expansion-panel-content>
-          <visao></visao>
-        </v-expansion-panel-content>
-      </v-expansion-panel>
-
-      <!-- VALORES -->
-      <v-expansion-panel @click="scrollToValores()">
-        <div ref="valores">
-          <v-expansion-panel-header disable-icon-rotate>
-            Valores
-            <template v-slot:actions>
-              <v-icon>mdi-check-bold</v-icon>
-            </template>
-          </v-expansion-panel-header>
-        </div>
-        <v-expansion-panel-content>
-          <valores></valores>
-        </v-expansion-panel-content>
-      </v-expansion-panel>
-
       <!-- LOCALIZACAO -->
       <v-expansion-panel @click="scrollToLocalizacao()">
         <div ref="localizacao">
@@ -160,8 +77,6 @@
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>
-
-    <!-- Números -->
   </div>
 </template>
 
@@ -177,23 +92,12 @@ export default class Empresa extends Vue {
   mounted() {
     this.getAlturaCabecalho();
   }
-  scrollToMissao() {
-    let elemento = this.$refs.missao as any;
-    let y = this.heightCabecalho as any;
-    elemento.scrollIntoView() + window.scrollBy(0, -56);
-  }
-  scrollToVisao() {
-    let elemento = this.$refs.missao as any;
-    elemento.scrollIntoView();
-  }
-  scrollToValores() {
-    let elemento = this.$refs.visao as any;
-    elemento.scrollIntoView();
-  }
+
   scrollToLocalizacao() {
     let elemento = this.$refs.organizacional as any;
     elemento.scrollIntoView();
   }
+  
   scrollToTrabConosco() {
     let elemento = this.$refs.localizacao as any;
     elemento.scrollIntoView();
