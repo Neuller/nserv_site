@@ -12,35 +12,19 @@
       <v-divider></v-divider>
       <v-row class="flex-row flex-md-row-reverse justify-space-around">
         <v-spacer class="d-none d-lg-block"></v-spacer>
-        <v-col
-          cols="12"
-          md="2"
-          class="d-flex justify-space-around align-center"
-        >
+        <v-col cols="12" md="2" class="d-flex justify-space-around align-center">
           <!-- INSTAGRAM -->
-          <v-btn
-            href="https://www.instagram.com/nserv.informatica/"
-            target="_blank"
-            text
-          >
+          <v-btn href="https://www.instagram.com/nserv.informatica/" target="_blank" text>
             <v-icon large class="nserv--text">mdi-instagram</v-icon>
           </v-btn>
 
           <!-- LINKEDIN -->
-          <v-btn
-            href="https://www.linkedin.com/company/nserv-informatica"
-            target="_blank"
-            text
-          >
+          <v-btn href="https://www.linkedin.com/company/nserv-informatica" target="_blank" text>
             <v-icon large class="nserv--text">mdi-linkedin</v-icon>
           </v-btn>
 
           <!-- WHATSAPP -->
-          <v-btn
-            href="https://wa.me/message/HZGDSPRQ6JNJK1"
-            target="_blank"
-            text
-          >
+          <v-btn href="https://wa.me/message/HZGDSPRQ6JNJK1" target="_blank" text>
             <v-icon large class="nserv--text">mdi-whatsapp</v-icon>
           </v-btn>
         </v-col>
@@ -56,9 +40,7 @@
 
           <v-list-item class="pa-0">
             <v-list-item-content class="font-weight-black justify-center">
-              <v-btn to="/empresa" small text @click="scrollToTop()"
-                >A Empresa</v-btn
-              >
+              <v-btn to="/empresa" small text @click="scrollToTop()">A Empresa</v-btn>
             </v-list-item-content>
           </v-list-item>
 
@@ -89,21 +71,17 @@
       <v-row class="d-md-none grey darken-1 white--text py-2 text-center">
         <v-col cols="12" md="6" class="pa-0">
           <span class="d-block font-weight-light text-caption pa-1 font-italic">
-            Copyright
-            <b>2022 ©</b>
+            Copyright <b>2023 ©</b>
           </span>
         </v-col>
-        <v-col
-          md="12"
-          class="
+        <v-col md="12" class="
             grey
             darken-1
             white--text
             text-center text-caption
             pa-0
             line-height-125
-          "
-        >
+          ">
           Rua Coronel João Camargos, 255, Centro |
           <span class="d-inline-block">Contagem - MG</span> | 32.040-620
         </v-col>
@@ -112,21 +90,17 @@
       <v-row class="grey darken-1 white--text pa-2 pb-1 d-none d-md-flex">
         <v-col cols="12" md="6" class="pa-0 text-left">
           <span class="d-block font-weight-light text-caption pa-0font-italic">
-            Copyright
-            <b>2023 ©</b>
+            Copyright <b>2023 ©</b>
           </span>
         </v-col>
-        <v-col
-          md="6"
-          class="
+        <v-col md="6" class="
             grey
             darken-1
             white--text
             text-right text-caption
             pa-0
             line-height-125
-          "
-        >
+          ">
           <span class="d-block">Rua Coronel João Camargos, 255, Centro</span>
           <span class="d-block">Contagem - MG, 32.040-620</span>
         </v-col>
@@ -145,6 +119,12 @@ export default class Rodape extends Vue {
   // ENVIAR PARA O TOPO DA PÁGINA
   scrollToTop() {
     window.scrollTo(0, 0);
+  }
+
+  anoAtual() {
+    const hoje = new Date();
+    const ano = hoje.getFullYear;
+    return ano;
   }
 }
 </script>
